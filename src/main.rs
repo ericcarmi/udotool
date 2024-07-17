@@ -14,7 +14,7 @@ mod commands;
 /// -- other commands represent key presses that do not write text
 /// -- e.g. ctrl-shift-down, ctrl-v
 /// -- example usage
-/// win-dotool -t quo [%p] quo [+yu] ctrl-down [%run ] ctrl-v enter
+/// udotool -t quo [%p] quo [+yu] ctrl-down [%run ] ctrl-v enter
 #[derive(Parser, Debug)]
 #[command(version, arg_required_else_help = true)]
 struct Args {
